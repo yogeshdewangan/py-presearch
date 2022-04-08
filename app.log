@@ -1,0 +1,19 @@
+2022-04-08 16:19:58,501 INFO  [main] wait_on_search_result: 1 min
+2022-04-08 16:19:58,502 INFO  [main] search_keywords list: ['Good books to read', 'Best places to visit', 'Best food to eat']
+2022-04-08 16:19:58,502 INFO  [main] search_engine: https://presearch.org/
+2022-04-08 16:19:58,502 INFO  [logger] 
+
+2022-04-08 16:19:58,502 INFO  [logger] ====== WebDriver manager ======
+2022-04-08 16:19:58,838 INFO  [logger] Current google-chrome version is 100.0.4896
+2022-04-08 16:19:58,838 INFO  [logger] Get LATEST chromedriver version for 100.0.4896 google-chrome
+2022-04-08 16:19:59,131 INFO  [logger] Driver [C:\Users\Yogesh\.wdm\drivers\chromedriver\win32\100.0.4896.60\chromedriver.exe] found in cache
+2022-04-08 16:20:00,115 INFO  [main] Browser opened
+2022-04-08 16:20:00,229 INFO  [main] Browser maximized
+2022-04-08 16:20:05,968 INFO  [main] Navigated to : https://presearch.org/
+2022-04-08 16:20:06,004 INFO  [main] Found search box and written the keyword: Good books to read
+2022-04-08 16:20:08,877 INFO  [main] Found search button and clicked
+2022-04-08 16:20:08,877 INFO  [main] waiting for 5 sec for search result to be apeared
+2022-04-08 16:20:13,881 INFO  [main] Trying to find all the search results and their links
+2022-04-08 16:20:14,419 INFO  [main] Found below links (count- 14): 
+2022-04-08 16:20:14,419 INFO  [main] ['https://www.youtube.com/channel/UCgU-2uscwUP6x27mUpCGWwg', 'https://www.goodreads.com/list/tag/best', 'https://thegreatestbooks.org/', 'https://www.amazon.in/100-books-to-read-in-a-lifetime/b?ie=UTF8&node=4348234031', 'https://www.lifehack.org/articles/communication/30-books-that-everyone-should-read-least-once-their-lives.html', 'https://www.panmacmillan.com/blogs/general/must-read-books-of-all-time', 'https://www.powells.com/25-books-to-read-before-you-die', 'https://www.quora.com/I-want-to-start-a-new-novel-Could-someone-recommend-to-me-some-of-the-best-novels', 'https://www.rd.com/list/books-read-before-die/', 'https://www.oberlo.in/blog/must-read-books-of-all-time', 'https://www.oberlo.com/blog/must-read-books-of-all-time', 'https://www.realsimple.com/work-life/entertainment/what-to-read-right-now', 'https://www.penguinrandomhouse.com/the-read-down/21-books-youve-been-meaning-to-read/', 'https://dsearch.com/search?q=Good%20books%20to%20read']
+2022-04-08 16:20:14,419 INFO  [main] Navigating to : https://dsearch.com/search?q=Good%20books%20to%20read
