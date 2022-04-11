@@ -1,26 +1,40 @@
-2022-04-11 12:20:35,621 INFO  [main] wait_on_search_result: 1 min
-2022-04-11 12:20:35,622 INFO  [main] search_keywords list: ['Good books to read', 'Best places to visit', 'Best food to eat']
-2022-04-11 12:20:35,622 INFO  [main] search_engine: https://presearch.org
-2022-04-11 12:20:35,622 INFO  [logger] 
+2022-04-11 13:06:25,016 INFO  [main] wait_on_search_result: 1-2 min
+2022-04-11 13:06:25,016 INFO  [main] search_keywords list: ['Good books to read', 'Best places to visit', 'Best food to eat']
+2022-04-11 13:06:25,016 INFO  [main] search_engine: https://presearch.org
+2022-04-11 13:06:25,017 INFO  [logger] 
 
-2022-04-11 12:20:35,623 INFO  [logger] ====== WebDriver manager ======
-2022-04-11 12:20:35,950 INFO  [logger] Current google-chrome version is 100.0.4896
-2022-04-11 12:20:35,950 INFO  [logger] Get LATEST chromedriver version for 100.0.4896 google-chrome
-2022-04-11 12:20:36,306 INFO  [logger] Driver [C:\Users\Yogesh\.wdm\drivers\chromedriver\win32\100.0.4896.60\chromedriver.exe] found in cache
-2022-04-11 12:20:37,288 INFO  [main] Browser opened
-2022-04-11 12:20:37,402 INFO  [main] Browser maximized
-2022-04-11 12:20:40,540 INFO  [main] Navigated to : https://presearch.org
-2022-04-11 12:21:24,459 INFO  [main] Found search box and written the keyword: Good books to read
-2022-04-11 12:21:26,235 INFO  [main] Found search button and clicked
-2022-04-11 12:21:26,235 INFO  [main] waiting for 5 sec for search result to be appeared
-2022-04-11 12:21:31,307 INFO  [main] Trying to find all the search results and their links
-2022-04-11 12:21:31,875 INFO  [main] Found below links (count- 14): 
-2022-04-11 12:21:31,875 INFO  [main] ['https://thegreatestbooks.org/', 'https://jamesclear.com/best-books', 'https://www.oberlo.in/blog/must-read-books-of-all-time', 'https://dsearch.com/search?q=Good%20books%20to%20read', 'https://www.amazon.in/100-books-to-read-in-a-lifetime/b?ie=UTF8&node=4348234031', 'https://www.youtube.com/channel/UCgU-2uscwUP6x27mUpCGWwg', 'https://www.panmacmillan.com/blogs/general/must-read-books-of-all-time', 'https://www.rd.com/list/books-read-before-die/', 'https://www.goodreads.com/list/tag/best', 'https://www.penguinrandomhouse.com/the-read-down/21-books-youve-been-meaning-to-read/', 'https://www.powells.com/25-books-to-read-before-you-die', 'https://www.realsimple.com/work-life/entertainment/what-to-read-right-now', 'https://www.yahoo.com/entertainment/levar-burton-implores-kids-to-read-banned-books-thats-where-the-good-stuff-is-084508801.html?fr=sycsrp_catchall', 'https://comicbook.com/tv-shows/news/levar-burton-read-banned-books-good-stuff-daily-show/']
-2022-04-11 12:21:31,876 INFO  [main] Navigating to : https://www.penguinrandomhouse.com/the-read-down/21-books-youve-been-meaning-to-read/
-2022-04-11 12:22:42,974 INFO  [main] Found search box and written the keyword: Best places to visit
-2022-04-11 12:22:44,441 INFO  [main] Found search button and clicked
-2022-04-11 12:22:44,441 INFO  [main] waiting for 5 sec for search result to be appeared
-2022-04-11 12:22:49,491 INFO  [main] Trying to find all the search results and their links
-2022-04-11 12:22:50,251 INFO  [main] Found below links (count- 15): 
-2022-04-11 12:22:50,251 INFO  [main] ['https://travel.usnews.com/rankings/worlds-best-vacations/', 'https://www.busytourist.com/best-vacation-spots-and-places-to-visit/', 'https://www.lonelyplanet.com/best-in-travel', 'https://www.planetware.com/india/best-places-to-visit-in-india-ind-1-26.htm', 'https://www.holidify.com/country/india/places-to-visit.html', 'https://www.youtube.com/watch?v=S7W8yoQeLGA', 'https://www.youtube.com/channel/UCgU-2uscwUP6x27mUpCGWwg', 'https://traveltriangle.com/blog/places-to-visit-in-india-before-you-turn-30/', 'https://www.youtube.com/watch?v=IgAnj6r1O48', 'https://www.forbes.com/sites/laurabegleybloom/2019/09/04/bucket-list-travel-the-top-50-places-in-the-world/', 'https://www.sundaypost.com/fp/scottish-gardens-to-visit/', 'https://www.youtube.com/watch?v=yiG6aIU9TYM', 'https://www.holidify.com/collections/best-places-in-the-world', 'https://hippie-inheels.com/best-places-to-visit-in-india-from-five-years-of-exploration/', 'https://dsearch.com/search?q=Best%20places%20to%20visit']
-2022-04-11 12:22:50,251 INFO  [main] Navigating to : https://www.lonelyplanet.com/best-in-travel
+2022-04-11 13:06:25,017 INFO  [logger] ====== WebDriver manager ======
+2022-04-11 13:06:25,316 INFO  [logger] Current google-chrome version is 100.0.4896
+2022-04-11 13:06:25,316 INFO  [logger] Get LATEST chromedriver version for 100.0.4896 google-chrome
+2022-04-11 13:06:25,576 INFO  [logger] Driver [C:\Users\Yogesh\.wdm\drivers\chromedriver\win32\100.0.4896.60\chromedriver.exe] found in cache
+2022-04-11 13:06:26,544 INFO  [main] Browser opened
+2022-04-11 13:06:26,660 INFO  [main] Browser maximized
+2022-04-11 13:06:29,010 INFO  [main] Navigated to : https://presearch.org
+2022-04-11 13:08:40,024 INFO  [main] Found search box and written the keyword: Good books to read
+2022-04-11 13:08:42,606 INFO  [main] Found search button and clicked
+2022-04-11 13:08:42,606 INFO  [main] waiting for 5 sec for search result to be appeared
+2022-04-11 13:08:51,691 INFO  [main] Trying to find all the search results and their links
+2022-04-11 13:08:52,250 INFO  [main] Found below links (count- 14): 
+2022-04-11 13:08:52,250 INFO  [main] ['https://www.amazon.in/100-books-to-read-in-a-lifetime/b?ie=UTF8&node=4348234031', 'https://www.rd.com/list/books-read-before-die/', 'https://www.quora.com/I-want-to-start-a-new-novel-Could-someone-recommend-to-me-some-of-the-best-novels', 'https://dsearch.com/search?q=Good%20books%20to%20read', 'https://thegreatestbooks.org/', 'https://www.panmacmillan.com/blogs/general/must-read-books-of-all-time', 'https://www.penguinrandomhouse.com/the-read-down/21-books-youve-been-meaning-to-read/', 'https://www.goodreads.com/list/tag/best', 'https://www.oberlo.com/blog/must-read-books-of-all-time', 'https://www.youtube.com/channel/UCgU-2uscwUP6x27mUpCGWwg', 'https://www.powells.com/25-books-to-read-before-you-die', 'https://www.oberlo.in/blog/must-read-books-of-all-time', 'https://www.realsimple.com/work-life/entertainment/what-to-read-right-now', 'https://www.barnesandnoble.com/b/books/awards/best-books-of-the-year/_/N-29Z8q8Z1qrh']
+2022-04-11 13:08:52,250 INFO  [main] Navigating to : https://www.goodreads.com/list/tag/best
+2022-04-11 13:08:56,316 INFO  [main] Waiting min: 2
+2022-04-11 13:10:56,536 INFO  [main] Found search box and written the keyword: Best places to visit
+2022-04-11 13:10:58,479 INFO  [main] Found search button and clicked
+2022-04-11 13:10:58,479 INFO  [main] waiting for 5 sec for search result to be appeared
+2022-04-11 13:11:07,524 INFO  [main] Trying to find all the search results and their links
+2022-04-11 13:11:08,232 INFO  [main] Found below links (count- 14): 
+2022-04-11 13:11:08,232 INFO  [main] ['https://www.planetware.com/world/top-places-to-visit-in-the-world-us-az-234.htm', 'https://www.forbes.com/sites/laurabegleybloom/2019/09/04/bucket-list-travel-the-top-50-places-in-the-world/', 'https://travel.usnews.com/rankings/worlds-best-vacations/', 'https://www.sundaypost.com/fp/scottish-gardens-to-visit/', 'https://www.holidify.com/collections/tourist-places-in-india', 'https://www.youtube.com/watch?v=IgAnj6r1O48', 'https://www.busytourist.com/best-vacation-spots-and-places-to-visit/', 'https://www.youtube.com/watch?v=S7W8yoQeLGA', 'https://www.planetware.com/india/best-places-to-visit-in-india-ind-1-26.htm', 'https://www.youtube.com/channel/UCgU-2uscwUP6x27mUpCGWwg', 'https://traveltriangle.com/blog/places-to-visit-in-india-before-you-turn-30/', 'https://www.youtube.com/watch?v=yiG6aIU9TYM', 'https://dsearch.com/search?q=Best%20places%20to%20visit', 'https://www.holidify.com/country/india/places-to-visit.html']
+2022-04-11 13:11:08,232 INFO  [main] Navigating to : https://dsearch.com/search?q=Best%20places%20to%20visit
+2022-04-11 13:11:09,605 INFO  [main] Waiting min: 2
+2022-04-11 13:13:09,801 INFO  [main] Found search box and written the keyword: Best food to eat
+2022-04-11 13:13:11,782 INFO  [main] Found search button and clicked
+2022-04-11 13:13:11,782 INFO  [main] waiting for 5 sec for search result to be appeared
+2022-04-11 13:13:20,839 INFO  [main] Trying to find all the search results and their links
+2022-04-11 13:13:21,379 INFO  [main] Found below links (count- 15): 
+2022-04-11 13:13:21,379 INFO  [main] ['https://www.youtube.com/watch?v=y14b3IX4mL8', 'https://www.verywellhealth.com/foods-that-are-good-for-your-heart-2507169', 'https://health.ucdavis.edu/blog/good-food/top-15-healthy-foods-you-should-be-eating/2019/04', 'https://www.youtube.com/watch?v=VUyEPf-IvdM', 'https://dsearch.com/search?q=Best%20food%20to%20eat', 'https://www.medicalnewstoday.com/articles/245259', 'https://www.healthline.com/nutrition/50-super-healthy-foods', 'https://www.realsimple.com/health/nutrition-diet/healthy-eating/the-30-healthiest-foods', 'https://www.cspinet.org/what-eat/10-best-foods', 'https://www.eatthis.com/healthiest-foods-on-planet/', 'https://www.taste.com.au/healthy/galleries/top-15-healthy-foods-eat-every-day/i5eh3vms', 'https://www.youtube.com/channel/UCgU-2uscwUP6x27mUpCGWwg', 'https://www.youtube.com/watch?v=F7gDIshc-S0&vl=en', 'https://www.ucsfhealth.org/education/top-ten-foods-for-health', 'https://www.delish.com/cooking/nutrition/g585/30-healthiest-foods/']
+2022-04-11 13:13:21,379 INFO  [main] Navigating to : https://www.youtube.com/watch?v=VUyEPf-IvdM
+2022-04-11 13:13:24,361 INFO  [main] Waiting min: 2
+2022-04-11 13:15:24,581 INFO  [main] Found search box and written the keyword: Good books to read
+2022-04-11 13:15:27,004 INFO  [main] Found search button and clicked
+2022-04-11 13:15:27,004 INFO  [main] waiting for 5 sec for search result to be appeared
+2022-04-11 13:15:36,058 INFO  [main] Trying to find all the search results and their links

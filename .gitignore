@@ -10,3 +10,4 @@
 /tests/screenshots/*
 /tests/assets/*
 app.log
+__pycache__

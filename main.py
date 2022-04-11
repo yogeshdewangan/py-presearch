@@ -23,30 +23,35 @@ log.info("wait_on_search_result: " + wait_on_search_result + " min")
 log.info("search_keywords list: " + str(search_keywords))
 log.info("search_engine: " + search_engine)
 
+wait_on = wait_on_search_result.split('-')
+wait_on_from=int(wait_on[0])+1
+wait_on_to=int(wait_on[1])
+
 def start():
     repeat_count = 1
     if repeat_all.lower() == "yes":
         repeat_count = 100
 
+    s = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=s)
+    log.info("Browser opened")
+    driver.maximize_window()
+    log.info("Browser maximized")
+
+    driver.get(search_engine + "/login")
+    log.info("Navigated to : " + search_engine)
+    time.sleep(4)
+
+    time.sleep(login_wait)
+
+    driver.get(search_engine)
+
+    time.sleep(4)
+
     for i in range(0, repeat_count):
-
-        s = Service(ChromeDriverManager().install())
-        driver = webdriver.Chrome(service=s)
-        log.info("Browser opened")
-        driver.maximize_window()
-        log.info("Browser maximized")
-
-        driver.get(search_engine + "/login")
-        log.info("Navigated to : " + search_engine)
-        time.sleep(4)
-
-        time.sleep(login_wait)
 
         for keyword in search_keywords:
             try:
-
-
-                driver.get(search_engine)
 
                 driver.find_element(by=By.ID, value = "search").send_keys(keyword)
                 log.info("Found search box and written the keyword: " + keyword)
@@ -80,7 +85,9 @@ def start():
                 log.info("Navigating to : "+ random_link_to_navigate)
                 driver.get(random_link_to_navigate)
                 driver.execute_script("window.scrollTo(0, document.body.scrollHeight/2);")
-                time.sleep(int(wait_on_search_result)*60)
+                waiting_time = int(random.randint(wait_on_from, wait_on_to))
+                log.info("Waiting min: "+ str(waiting_time))
+                time.sleep(waiting_time*60)
 
                 driver.back()
                 driver.back()
